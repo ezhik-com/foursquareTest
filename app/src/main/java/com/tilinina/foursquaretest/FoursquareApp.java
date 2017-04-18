@@ -10,7 +10,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class FoursquareApp extends Application
 {
-  public final String baseVenuesUrl = "https://api.foursquare.com/v2/venues/";
+  public final String baseVenuesUrl = "https://api.foursquare.com/";
+  public final static String CLIENT_ID = "NX1DRVT5FPXO1YOC0530352DAOKG0XDHSMT3DDEWN3TBNHXD";
+  public final static String CLIENT_SECRET = "OKLVSBICLJLAZN2KCZXW1ALPIRPEQ2BWNR2Y23ALSTQ1EJBY";
   private static VenuesApi venuesApi;
   private Retrofit retrofit;
 
